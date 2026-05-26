@@ -28,7 +28,27 @@ Method used:
 
 ### Code
 
-[Brain.ipynb](./Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb)
+[View Notebook on GitHub](https://github.com/Kash-Yep/Medical-Image-Classification-Projects/blob/main/Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb)
+
+### Results
+
+#### Baseline SVM (RBF)
+
+- Tumor count table
+- Histogram
+- Sample predictions
+- Baseline scores
+
+#### Linear Kernel Experiment
+
+- Sample predictions
+- Linear kernel scores
+
+#### Training Percentage Experiment
+
+- Accuracy plot
+- Measurements
+- Histogram
 
 ### Results
 
