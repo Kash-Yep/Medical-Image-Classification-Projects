@@ -1,4 +1,4 @@
-# Medical Image Classification Projects
+# 🧠 Medical Image Classification Projects
 
 Machine Learning and Deep Learning projects for medical image classification using SVM, CNN, PCA and XGBoost.
 
@@ -15,10 +15,10 @@ The objective of this project is to classify MRI brain scans into:
 - Glioma Tumor
 - Meningioma Tumor
 
-Method used:
+### Method Used
 
 - Image preprocessing
-- Normalization
+- Image normalization
 - PCA dimensionality reduction
 - SVM classification
 
@@ -32,89 +32,113 @@ Method used:
 
 ---
 
-## Results
+# 📊 Results
 
 # Baseline SVM (RBF Kernel)
 
-### Baseline Scores
+## Training and Testing Scores
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/baseline_scores.png" width="700">
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/baseline_scores.png" width="800">
 
-### Tumor Count Table
+---
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/tumor_count_table.png" width="700">
+## Tumor Count
 
-### Histogram
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/tumor_count_table.png" width="500">
+
+---
+
+## Sample Predictions
+
+### Prediction Set 1
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/sample_predictions1.png" width="800">
+
+### Prediction Set 2
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/sample_predictions2.png" width="800">
+
+---
+
+## Histogram
 
 <img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/histogram.png" width="700">
-
-### Sample Predictions (Set 1)
-
-<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/sample_predictions1.png" width="700">
-
-### Sample Predictions (Set 2)
-
-<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/sample_predictions2.png" width="700">
 
 ---
 
 # Linear Kernel Experiment
 
-### Linear Kernel Scores
+## Training and Testing Scores
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/linear_scores.png" width="700">
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/linear_scores.png" width="800">
 
-### Tumor Count Table
+---
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/tumour_count_table.png" width="700">
+## Tumor Count
 
-### Histogram
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/tumour_count_table.png" width="500">
+
+---
+
+## Sample Predictions
+
+### Prediction Set 1
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(1).png" width="800">
+
+### Prediction Set 2
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(2).png" width="800">
+
+### Prediction Set 3
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(3).png" width="800">
+
+### Prediction Set 4
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(4).png" width="800">
+
+---
+
+## Histogram
 
 <img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/histogram.png" width="700">
-
-### Sample Predictions (Set 1)
-
-<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(1).png" width="700">
-
-### Sample Predictions (Set 2)
-
-<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(2).png" width="700">
-
-### Sample Predictions (Set 3)
-
-<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(3).png" width="700">
-
-### Sample Predictions (Set 4)
-
-<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(4).png" width="700">
 
 ---
 
 # Training Percentage Experiment
 
-### Training Percentage vs Accuracy Plot
+## Training and Testing Scores
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/accuracy_plot.png" width="700">
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/TrainingDataAccuracy.png" width="800">
 
-### Training Accuracy Measurements
+---
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/TrainingDataAccuracy.png" width="700">
+## Tumor Count
 
-### Performance Metrics
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/TumorCountTable.png" width="500">
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Measurement.png" width="700">
+---
 
-### Tumor Count Table
+## Training vs Accuracy Plot
 
-<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/TumorCountTable.png" width="700">
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/accuracy_plot.png" width="800">
 
-### Histogram
+---
+
+## Performance Metrics
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Measurement.png" width="800">
+
+---
+
+## Histogram
 
 <img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Histogram.png" width="700">
 
 ---
 
-## Future Exercises
+# 🚀 Future Exercises
 
 - Exercise-2: Chest X-ray Classification using CNN
 - Exercise-3: XGBoost for Medical Image Classification
