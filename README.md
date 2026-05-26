@@ -1,4 +1,4 @@
-# 🧠 Medical Image Classification Projects
+#  Medical Image Classification Projects
 
 Machine Learning and Deep Learning projects for medical image classification using SVM, CNN, PCA and XGBoost.
 
@@ -32,7 +32,7 @@ The objective of this project is to classify MRI brain scans into:
 
 ---
 
-# 📊 Results
+# Results
 
 # Baseline SVM (RBF Kernel)
 
@@ -138,7 +138,7 @@ The objective of this project is to classify MRI brain scans into:
 
 ---
 
-# 🚀 Future Exercises
+#  Future Exercises
 
 - Exercise-2: Chest X-ray Classification using CNN
 - Exercise-3: XGBoost for Medical Image Classification
