@@ -50,13 +50,7 @@ Method used:
 - Measurements
 - Histogram
 
-### Results
 
-Results folder:
-
-[Results](./Exersize-1(BrainTumour-SVM)/Results)
-
----
 
 Future Exercises:
 
