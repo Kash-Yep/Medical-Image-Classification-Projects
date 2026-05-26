@@ -30,29 +30,91 @@ Method used:
 
 [View Notebook on GitHub](https://github.com/Kash-Yep/Medical-Image-Classification-Projects/blob/main/Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb)
 
-### Results
+---
 
-#### Baseline SVM (RBF)
+## Results
 
-- Tumor count table
-- Histogram
-- Sample predictions
-- Baseline scores
+# Baseline SVM (RBF Kernel)
 
-#### Linear Kernel Experiment
+### Baseline Scores
 
-- Sample predictions
-- Linear kernel scores
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/baseline_scores.png" width="700">
 
-#### Training Percentage Experiment
+### Tumor Count Table
 
-- Accuracy plot
-- Measurements
-- Histogram
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/tumor_count_table.png" width="700">
 
+### Histogram
 
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/histogram.png" width="700">
 
-Future Exercises:
+### Sample Predictions (Set 1)
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/sample_predictions1.png" width="700">
+
+### Sample Predictions (Set 2)
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/RBF_Baseline/sample_predictions2.png" width="700">
+
+---
+
+# Linear Kernel Experiment
+
+### Linear Kernel Scores
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/linear_scores.png" width="700">
+
+### Tumor Count Table
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/tumour_count_table.png" width="700">
+
+### Histogram
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/histogram.png" width="700">
+
+### Sample Predictions (Set 1)
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(1).png" width="700">
+
+### Sample Predictions (Set 2)
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(2).png" width="700">
+
+### Sample Predictions (Set 3)
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(3).png" width="700">
+
+### Sample Predictions (Set 4)
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Linear_Kernel/sample_predictions%20(4).png" width="700">
+
+---
+
+# Training Percentage Experiment
+
+### Training Percentage vs Accuracy Plot
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/accuracy_plot.png" width="700">
+
+### Training Accuracy Measurements
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/TrainingDataAccuracy.png" width="700">
+
+### Performance Metrics
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Measurement.png" width="700">
+
+### Tumor Count Table
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/TumorCountTable.png" width="700">
+
+### Histogram
+
+<img src="Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Histogram.png" width="700">
+
+---
+
+## Future Exercises
 
 - Exercise-2: Chest X-ray Classification using CNN
 - Exercise-3: XGBoost for Medical Image Classification
