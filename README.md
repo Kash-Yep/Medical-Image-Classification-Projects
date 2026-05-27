@@ -126,10 +126,15 @@ The objective of this project is to classify MRI brain scans into:
 
 ---
 
-## Performance Metrics
+## RBF Performance Metrics
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Measurement.png" width="800">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/rbf_metrics.png" width="800">
 
+---
+
+## Linear Performance Metrics
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/linear_Metrics.png" width="800">
 ---
 
 ## Histogram
