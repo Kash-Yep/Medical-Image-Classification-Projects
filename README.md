@@ -141,8 +141,6 @@ The objective of this project is to classify MRI brain scans into:
 
 <img src="./Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Histogram.png" width="700">
 
----
-
 #  Future Exercises
 
 - Exercise-2: Chest X-ray Classification using CNN
