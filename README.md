@@ -1,6 +1,6 @@
-#  Medical Image Classification Projects
+# Medical Image Classification Projects
 
-Machine Learning and Deep Learning projects for medical image classification using SVM, CNN, PCA and XGBoost.
+Machine Learning and Deep Learning projects for medical image classification using SVM, CNN, PCA, Transfer Learning and XGBoost.
 
 ---
 
@@ -10,17 +10,17 @@ Machine Learning and Deep Learning projects for medical image classification usi
 
 The objective of this project is to classify MRI brain scans into:
 
-- No Tumor
-- Pituitary Tumor
-- Glioma Tumor
-- Meningioma Tumor
+* No Tumor
+* Pituitary Tumor
+* Glioma Tumor
+* Meningioma Tumor
 
 ### Method Used
 
-- Image preprocessing
-- Image normalization
-- PCA dimensionality reduction
-- Support Vector Machine (SVM)
+* Image preprocessing
+* Image normalization
+* PCA dimensionality reduction
+* Support Vector Machine (SVM)
 
 ---
 
@@ -28,11 +28,11 @@ The objective of this project is to classify MRI brain scans into:
 
 ### Code
 
-[View Notebook on GitHub](https://github.com/Kash-Yep/Medical-Image-Classification-Projects/blob/main/Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb)
+[View Notebook on GitHub](https://github.com/Kash-Yep/Medical-Image-Classification-Projects/blob/main/Exersize-1%28BrainTumour-SVM%29/Code/Brain.ipynb)
 
 ---
 
-#  Results
+# Results
 
 # Baseline SVM (RBF Kernel)
 
@@ -135,13 +135,188 @@ The objective of this project is to classify MRI brain scans into:
 ## Linear Performance Metrics
 
 <img src="./Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/linear_Metrics.png" width="800">
+
 ---
 
 ## Histogram
 
 <img src="./Exersize-1(BrainTumour-SVM)/Results/Training_Percentage_Experiment/Histogram.png" width="700">
 
-#  Future Exercises
+---
 
-- Exercise-2: Chest X-ray Classification using CNN
-- Exercise-3: XGBoost for Medical Image Classification
+# Exercise-2: Chest X-Ray Classification using CNN
+
+## Project Description
+
+The objective of this project is to classify chest X-Ray scans into:
+
+* NORMAL
+* PNEUMONIA
+
+### Method Used
+
+* Image preprocessing
+* Image normalization
+* Data augmentation
+* MobileNet CNN Architecture
+* Binary Classification
+* Model Checkpointing
+* Reproducible Training Pipeline
+
+---
+
+## Project Files
+
+### Code
+
+[View Notebook on GitHub](./Exersize-2%28ChestXRay%29/Code/ChestXRay_CNN.ipynb)
+
+---
+
+# Results
+
+# Baseline CNN
+
+## Total Image Count
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Image_Count.png" width="700">
+
+---
+
+## Train Test Validation Split Count
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Split_Count.png" width="700">
+
+---
+
+## Preprocessed Training Images
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Preprocessed_train.png" width="700">
+
+---
+
+## Class Distribution
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Class_Distribution.png" width="800">
+
+---
+
+## Sample Images
+
+### Training Samples
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Sample_Train.png" width="850">
+
+### Testing Samples
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Sample_Test.png" width="850">
+
+### Validation Samples
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Sample_Validation.png" width="850">
+
+---
+
+## Initial CNN Training
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Initial_CNN_Training.png" width="850">
+
+---
+
+## Training and Validation Accuracy
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/TsV_Accuracy.png" width="850">
+
+---
+
+## Training and Validation Loss
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/TsV_Loss.png" width="850">
+
+---
+
+## Performance Metrics
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Performance_Metrics.png" width="700">
+
+---
+
+## Confusion Matrix
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/Confusion_Matrix.png" width="700">
+
+---
+
+## ROC Curve
+
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/ROC_Curve.png" width="700">
+
+---
+
+## Model Configuration
+
+* Architecture: MobileNet
+* Input Size: 224 × 224 × 3
+* Optimizer: Adam
+* Loss Function: Binary Crossentropy
+* Batch Size: 32
+* Epochs: 10 (Baseline)
+* Augmentation: Enabled
+* Model Saving: Best Validation Loss Checkpoint
+
+---
+
+## Baseline Performance Summary
+
+* Accuracy: 78.35%
+* Precision: 95.29%
+* Sensitivity (Recall): 72.54%
+* Specificity: 91.73%
+* F1 Score: 82.37%
+* AUC Score: 0.93
+
+---
+
+# Future Work
+
+## Transfer Learning
+
+(To be implemented)
+
+---
+
+## Training Percentage Experiments
+
+### 20 Percent Training Data
+
+(To be implemented)
+
+### 40 Percent Training Data
+
+(To be implemented)
+
+### 60 Percent Training Data
+
+(To be implemented)
+
+### 80 Percent Training Data
+
+(To be implemented)
+
+---
+
+## CNN vs SVM Comparison
+
+(To be implemented)
+
+---
+
+## Detailed Final Report
+
+(To be implemented)
+
+---
+
+# Future Exercises
+
+Exercise-3: XGBoost for Medical Image Classification
