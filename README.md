@@ -225,13 +225,13 @@ The objective of this project is to classify chest X-Ray scans into:
 
 ## Training and Validation Accuracy
 
-<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/TsV_Accuracy.png" width="850">
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/TvsV_Accuracy.png" width="850">
 
 ---
 
 ## Training and Validation Loss
 
-<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/TsV_Loss.png" width="850">
+<img src="./Exersize-2(ChestXRay)/Results/Baseline_CNN/TvsV_Loss.png" width="850">
 
 ---
 
