@@ -1,0 +1,187 @@
+# Baseline CNN Notes
+
+## Objective
+
+Develop a CNN-based classifier for Chest X-Ray images to classify:
+
+* NORMAL
+* PNEUMONIA
+
+using MobileNet architecture.
+
+---
+
+## Original Implementation Reference
+
+Original implementation obtained from:
+
+Kaggle Medical Image Classification notebook.
+
+Architecture used:
+
+* MobileNet
+* No pretrained weights
+* Binary classification
+
+---
+
+## Major Modifications Made
+
+### 1. Reproducibility Improvements
+
+Added fixed seeds for:
+
+* NumPy
+* Python random
+* TensorFlow
+
+Reason:
+
+To reduce variation between multiple runs.
+
+---
+
+### 2. Dataset Pipeline Modifications
+
+Modified dataset handling for:
+
+* Stable train/test/validation split
+* Controlled shuffling
+* Consistent preprocessing
+
+Reason:
+
+To maintain identical dataset splits across experiments.
+
+---
+
+### 3. Generator / Training Fixes
+
+Modified training procedure to avoid:
+
+* Generator exhaustion
+* Interrupted training behavior
+* Inconsistent epoch behavior
+
+Reason:
+
+Training instability was observed during initial implementation.
+
+---
+
+### 4. Model Saving Improvements
+
+Added:
+
+* Model checkpointing
+* Best validation loss saving
+
+Reason:
+
+Best performing model should be evaluated instead of final epoch model.
+
+---
+
+### 5. Evaluation Pipeline Added
+
+Added:
+
+* Accuracy
+* Precision
+* Sensitivity
+* Specificity
+* F1 Score
+* ROC Curve
+* AUC
+* Confusion Matrix
+
+Reason:
+
+Assignment requires detailed evaluation metrics.
+
+---
+
+# Final Baseline Configuration
+
+Architecture:
+
+* MobileNet
+
+Input Size:
+
+* 224 × 224 × 3
+
+Optimizer:
+
+* Adam
+
+Loss:
+
+* Binary Crossentropy
+
+Batch Size:
+
+* 32
+
+Epochs:
+
+* 10
+
+Augmentation:
+
+* Enabled
+
+---
+
+# Final Baseline Results
+
+Accuracy:
+
+78.35%
+
+Precision:
+
+95.29%
+
+Sensitivity (Recall):
+
+72.54%
+
+Specificity:
+
+91.73%
+
+F1 Score:
+
+82.37%
+
+Train Accuracy:
+
+92.46%
+
+Approximate AUC:
+
+0.93
+
+---
+
+# Observations
+
+* Training became more stable after pipeline modifications.
+* Validation behavior remained somewhat unstable due to dataset size imbalance.
+* High precision indicates strong confidence in positive predictions.
+* Lower sensitivity suggests some pneumonia cases remain missed.
+* MobileNet provides reasonable performance even without pretrained weights.
+
+---
+
+# Current Status
+
+Baseline CNN:
+
+COMPLETE
+
+Ready for:
+
+* Transfer Learning
+* Training Percentage Experiments

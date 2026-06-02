@@ -144,6 +144,97 @@ The objective of this project is to classify MRI brain scans into:
 
 ---
 
+# Brain Tumor Transfer Learning (MobileNet)
+
+## Project Description
+
+Transfer learning was implemented on the Brain Tumor MRI dataset using MobileNet pretrained on ImageNet.
+
+Objective:
+
+Compare classical ML approaches with transfer learning approaches.
+
+Classes:
+
+* Glioma Tumor
+* Meningioma Tumor
+* No Tumor
+* Pituitary Tumor
+
+---
+
+## Method Used
+
+* Transfer Learning
+* MobileNet (ImageNet Pretrained)
+* Frozen Feature Extractor
+* Multi-Class Classification
+* Softmax Output Layer
+
+---
+
+## Project Files
+
+### Code
+
+[View Notebook on GitHub](./Exersize-1%28BrainTumour-SVM%29/Code/BrainTumor_TransferLearning.ipynb)
+
+---
+
+# Results
+
+## Model Summary
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Metrics/Model_Summary.png" width="800">
+
+---
+
+## Training Logs
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Metrics/TransferLearning_Training_Log.png" width="800">
+
+---
+
+## Training vs Validation Accuracy
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Training_Curves/Accuracy.png" width="800">
+
+---
+
+## Training vs Validation Loss
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Training_Curves/Loss.png" width="800">
+
+---
+
+## Confusion Matrix
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Confusion_Matrix/ConfusionMatrix.png" width="700">
+
+---
+
+## Classification Report
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Metrics/Classification_Report.png" width="800">
+
+---
+
+## Sample Predictions
+
+<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Sample_Predictions/Sample_Predictions.png" width="900">
+
+---
+
+## Final Performance Summary
+
+* Test Accuracy: 70.56%
+
+* Weighted F1 Score: 68%
+
+* Transfer learning showed strong performance for pituitary and no tumor classes but struggled with glioma classification.
+
+---
+
 # Exercise-2: Chest X-Ray Classification using CNN
 
 ## Project Description
@@ -253,37 +344,23 @@ The objective of this project is to classify chest X-Ray scans into:
 
 ---
 
-## Model Configuration
-
-* Architecture: MobileNet
-* Input Size: 224 × 224 × 3
-* Optimizer: Adam
-* Loss Function: Binary Crossentropy
-* Batch Size: 32
-* Epochs: 10 (Baseline)
-* Augmentation: Enabled
-* Model Saving: Best Validation Loss Checkpoint
-
----
-
 ## Baseline Performance Summary
 
 * Accuracy: 78.35%
+
 * Precision: 95.29%
+
 * Sensitivity (Recall): 72.54%
+
 * Specificity: 91.73%
+
 * F1 Score: 82.37%
+
 * AUC Score: 0.93
 
 ---
 
 # Future Work
-
-## Transfer Learning
-
-(To be implemented)
-
----
 
 ## Training Percentage Experiments
 
