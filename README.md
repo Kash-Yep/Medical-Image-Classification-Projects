@@ -185,43 +185,43 @@ Classes:
 
 ## Model Summary
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Metrics/Model_Summary.png" width="800">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/Model_Summary.png" width="800">
 
 ---
 
 ## Training Logs
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Metrics/TransferLearning_Training_Log.png" width="800">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/TransferLearning_Training_Log.png" width="800">
 
 ---
 
 ## Training vs Validation Accuracy
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Training_Curves/Accuracy.png" width="800">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/Training_Curves_Accuracy.png" width="800">
 
 ---
 
 ## Training vs Validation Loss
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Training_Curves/Loss.png" width="800">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/Training_Curves_Loss.png" width="800">
 
 ---
 
 ## Confusion Matrix
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Confusion_Matrix/ConfusionMatrix.png" width="700">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/Confusion_Matrix.png" width="700">
 
 ---
 
 ## Classification Report
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Metrics/Classification_Report.png" width="800">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/Classification_Report.png" width="800">
 
 ---
 
 ## Sample Predictions
 
-<img src="./Exersize-1(BrainTumour-SVM)/Results/TransferLearning/Sample_Predictions/Sample_Predictions.png" width="900">
+<img src="./Exersize-1(BrainTumour-SVM)/Results/CNN_BrainTumour/Sample_Predictions.png" width="900">
 
 ---
 
@@ -232,6 +232,7 @@ Classes:
 * Weighted F1 Score: 68%
 
 * Transfer learning showed strong performance for pituitary and no tumor classes but struggled with glioma classification.
+
 
 ---
 
