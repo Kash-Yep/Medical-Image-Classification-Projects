@@ -361,39 +361,157 @@ The objective of this project is to classify chest X-Ray scans into:
 
 ---
 
-# Future Work
+# Training Percentage Experiments (CNN)
 
-## Training Percentage Experiments
+The objective of these experiments was to study the effect of training dataset size on CNN performance.
 
-### 20 Percent Training Data
+Training percentages used:
 
-(To be implemented)
+* 20%
+* 40%
+* 60%
+* 80%
 
-### 40 Percent Training Data
-
-(To be implemented)
-
-### 60 Percent Training Data
-
-(To be implemented)
-
-### 80 Percent Training Data
-
-(To be implemented)
+The test dataset remained constant across all experiments to ensure fair comparison.
 
 ---
 
-## CNN vs SVM Comparison
+# 20 Percent Training Data
 
-(To be implemented)
+## Dataset Statistics
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Dataset_Statistics.png" width="700">
+
+---
+
+## Training Dataset Summary
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Training_Dataset.png" width="700">
 
 ---
 
-## Detailed Final Report
+## Class Distribution
 
-(To be implemented)
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Class_Distribution.png" width="700">
 
 ---
+
+## CNN Training Logs
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/CNN_Training_Logs.png" width="850">
+
+---
+
+## Accuracy Curve
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Accuracy_Plot.png" width="850">
+
+---
+
+## Loss Curve
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Loss_Plot.png" width="850">
+
+---
+
+## Confusion Matrix
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Confusion_Matrix.png" width="700">
+
+---
+
+## ROC Curve
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/ROC_Curve.png" width="700">
+
+---
+
+## Performance Metrics
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Metrics.png" width="700">
+
+---
+
+## Training Summary
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/20_Percent/Training_Summary.png" width="700">
+
+---
+
+Final Accuracy: **69.75%**
+
+Training Images Used: **928**
+
+---
+
+# 40 Percent Training Data
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/40_Percent/Training_Summary.png" width="700">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/40_Percent/Accuracy_Plot.png" width="850">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/40_Percent/Loss_Plot.png" width="850">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/40_Percent/Metrics.png" width="700">
+
+Final Accuracy: **69.75%**
+
+Training Images Used: **1856**
+
+---
+
+# 60 Percent Training Data
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/60_Percent/Training_Summary.png" width="700">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/60_Percent/Accuracy_Plot.png" width="850">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/60_Percent/Loss_Plot.png" width="850">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/60_Percent/Metrics.png" width="700">
+
+Final Accuracy: **82.81%**
+
+Training Images Used: **2784**
+
+---
+
+# 80 Percent Training Data
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/80_Percent/Training_Summary.png" width="700">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/80_Percent/Accuracy_Plot.png" width="850">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/80_Percent/Loss_Plot.png" width="850">
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/80_Percent/Metrics.png" width="700">
+
+Final Accuracy: **85.20%**
+
+Training Images Used: **3712**
+
+---
+
+# CNN vs Linear SVM Comparison
+
+<img src="./Exersize-2(ChestXRay)/Results/Training_Data_Experiments/LvsCNN_Plot.png" width="850">
+
+| Training Data | CNN Accuracy | Linear SVM Accuracy |
+| ------------- | -----------: | ------------------: |
+| 20%           |       69.75% |              74.36% |
+| 40%           |       69.75% |              74.04% |
+| 60%           |       82.81% |              73.72% |
+| 80%           |       85.20% |              75.00% |
+
+## Observation
+
+* Linear SVM performs better when training data is limited.
+* CNN performance improves significantly with larger datasets.
+* CNN overtakes Linear SVM after sufficient training data becomes available.
+* Linear SVM performance remains relatively stable while CNN scales more effectively.
+
+---
+
 
 # Future Exercises
 
