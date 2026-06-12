@@ -35,7 +35,7 @@ The objective is to evaluate how different approaches perform on medical imaging
 
 # 2. Repository Structure
 
-```text
+
 Medical-Image-Classification-Projects
 
 ├── Exersize-1(BrainTumour-SVM)
@@ -43,7 +43,7 @@ Medical-Image-Classification-Projects
 ├── Exersize-3
 ├── Medical_Image_Classification_Report.md
 └── README.md
-```
+
 
 ---
 
@@ -113,9 +113,9 @@ Classify MRI brain scans into four categories using classical machine learning a
 
 ### Notebook
 
-```text
+
 Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb
-```
+
 
 ### Final Results
 
@@ -138,9 +138,9 @@ Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb
 
 ### Notebook
 
-```text
+
 Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb
-```
+
 
 ### Final Results
 
@@ -163,9 +163,9 @@ Exersize-1(BrainTumour-SVM)/Code/Brain.ipynb
 
 ### Notebook
 
-```text
+
 Exersize-1(BrainTumour-SVM)/Code/BrainTumor_TransferLearning.ipynb
-```
+
 
 ### Final Results
 
@@ -215,9 +215,9 @@ Classify Chest X-Ray images into Normal and Pneumonia categories using classical
 
 ### Notebook
 
-```text
+
 Exersize-2(ChestXRay)/Code/ChestXRay_SVM.ipynb
-```
+
 
 ### Final Results
 
@@ -240,9 +240,9 @@ Exersize-2(ChestXRay)/Code/ChestXRay_SVM.ipynb
 
 ### Notebook
 
-```text
+
 Exersize-2(ChestXRay)/Code/ChestXRay_CNN.ipynb
-```
+
 
 ### Final Results
 
@@ -317,9 +317,9 @@ Raw image features directly classified using XGBoost.
 
 ### Notebook
 
-```text
+
 Exersize-3/Code/BrainTumor_XGBoost.ipynb
-```
+
 
 ### Final Metrics
 
@@ -337,9 +337,9 @@ PCA dimensionality reduction followed by XGBoost classification.
 
 ### Notebook
 
-```text
+
 Exersize-3/Code/BrainTumor_PCA_XGBoost.ipynb
-```
+
 
 ### Final Metrics
 
@@ -357,9 +357,9 @@ Deep features extracted using VGG16 and classified using XGBoost.
 
 ### Notebook
 
-```text
+
 Exersize-3/Code/BrainTumor_VGG16_XGBoost.ipynb
-```
+
 
 ### Final Metrics
 
@@ -385,9 +385,9 @@ Exersize-3/Code/BrainTumor_VGG16_XGBoost.ipynb
 
 ### Notebook
 
-```text
+
 Exersize-3/Code/ChestXRay_XGBoost.ipynb
-```
+
 
 ### Final Metrics
 
@@ -403,9 +403,9 @@ Exersize-3/Code/ChestXRay_XGBoost.ipynb
 
 ### Notebook
 
-```text
+
 Exersize-3/Code/ChestXRay_PCA_XGBoost.ipynb
-```
+
 
 ### Final Metrics
 
@@ -421,9 +421,9 @@ Exersize-3/Code/ChestXRay_PCA_XGBoost.ipynb
 
 ### Notebook
 
-```text
+
 Exersize-3/Code/ChestXRay_VGG16_XGBoost.ipynb
-```
+
 
 ### Final Metrics
 
